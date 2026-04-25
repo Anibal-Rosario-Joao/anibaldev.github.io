@@ -17,6 +17,9 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
+  // Esta é a linha que corrige o erro 404 no GitHub Pages:
+  base: '/anibaldev.github.io/',
+  
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
