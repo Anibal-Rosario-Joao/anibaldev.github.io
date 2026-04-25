@@ -18,7 +18,7 @@ function figmaAssetResolver() {
 
 export default defineConfig({
   // Esta é a linha que corrige o erro 404 no GitHub Pages:
-  base: '/anibaldev.github.io/',
+  base: '/portfolio.github.io/',
   
   plugins: [
     figmaAssetResolver(),
