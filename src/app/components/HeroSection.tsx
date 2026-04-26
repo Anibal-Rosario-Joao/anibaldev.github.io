@@ -40,7 +40,7 @@ export function HeroSection() {
 
           <div className="mt-12 flex items-center gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Anibal-Rosario-Joao"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground transition-colors hover:text-primary"
@@ -48,7 +48,7 @@ export function HeroSection() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="linkedin.com/in/anibal-rosário-joão-1b2343331"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground transition-colors hover:text-secondary"
@@ -56,7 +56,7 @@ export function HeroSection() {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/hannibal_ofice/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground transition-colors hover:text-primary"
