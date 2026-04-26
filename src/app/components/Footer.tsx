@@ -44,8 +44,8 @@ export function Footer() {
             <span>GitHub</span>
           </a>
           <a
-            href="linkedin.com/in/anibal-rosário-joão-1b2343331"
-            target="_blank"
+            href="https://www.linkedin.com/in/anibal-ros%C3%A1rio-jo%C3%A3o-1b2343331/"
+            target="_blank"inkedin.
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-secondary"
           >
@@ -62,7 +62,7 @@ export function Footer() {
             <span>Instagram</span>
           </a>
           <a
-            href="mailto:seuemail@example.com"
+            href="anibalrosariojoao2002@gmail.com"
             className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary"
           >
             <Mail className="h-5 w-5" />
