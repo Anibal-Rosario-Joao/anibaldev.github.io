@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
-import { ExternalLink, Brain,Ticket,Clover,Crown,Utensils Activity } from 'lucide-react';
+//import { ExternalLink, Brain,Ticket,Clover,Crown,Utensils Activity } from 'lucide-react';
+import { Ticket, Clover, Crown, Utensils } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function ProjectsSection() {
