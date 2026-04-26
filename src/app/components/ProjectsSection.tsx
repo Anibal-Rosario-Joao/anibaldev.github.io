@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ExternalLink, Brain, Activity } from 'lucide-react';
+import { ExternalLink, Brain,Ticket,Clover,Crown,Utensils Activity } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function ProjectsSection() {
@@ -9,15 +9,15 @@ export function ProjectsSection() {
     {
       title: t('project1Title'),
       description: t('project1Description'),
-      technologies: ['Kotlin', t('roomDatabase'),'MVVM', t('navigationCompose'), t('material3')],
-      icon: Brain,
+      technologies: ['Kotlin', 'Room Database','MVVM', 'Navigation Compose', 'Material 3'],
+      icon: Ticket,
       link: 'https://github.com/Anibal-Rosario-Joao/Loteria/tree/master',
     },
     {
       title: t('project2Title'),
       description: t('project2Description'),
-      technologies: ['C++', t('machineLearning'), t('dataAnalysis'), t('predictiveModeling')],
-      icon: Activity,
+      technologies: ['Kotlin', t('machineLearning'), t('dataAnalysis'), t('predictiveModeling')],
+      icon: Crown,
       link: '#',
     },
   ];
