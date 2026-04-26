@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 //import { ExternalLink, Brain,Ticket,Clover,Crown,Utensils Activity } from 'lucide-react';
-import { ExternalLink, Ticket, Clover, Crown, Utensils } from 'lucide-react';
+import { ExternalLink,  Clover, Crown } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function ProjectsSection() {
@@ -11,15 +11,15 @@ export function ProjectsSection() {
       title: t('project1Title'),
       description: t('project1Description'),
       technologies: ['Kotlin', 'Room Database','MVVM', 'Navigation Compose', 'Material 3'],
-      icon: Ticket,
+      icon: Clover,
       link: 'https://github.com/Anibal-Rosario-Joao/Loteria/tree/master',
     },
     {
       title: t('project2Title'),
       description: t('project2Description'),
-      technologies: ['Kotlin', t('machineLearning'), t('dataAnalysis'), t('predictiveModeling')],
+      technologies: ['Kotlin', 'Data Store'), 'MVVM','Clean Architecture', 'Retrfit', 'Dagger Hilt'],
       icon: Crown,
-      link: '#',
+      link: 'https://github.com/Anibal-Rosario-Joao/King-Burguer',
     },
   ];
 
@@ -79,7 +79,7 @@ export function ProjectsSection() {
                     href={project.link}
                     className="inline-flex items-center gap-2 text-primary transition-colors hover:text-primary/80"
                   >
-                    {t('viewPublication')}
+                    {t('viewProject')}
                     <ExternalLink className="h-4 w-4" />
                   </a>
                 </div>
