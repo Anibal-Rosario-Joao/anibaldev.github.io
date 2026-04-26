@@ -45,7 +45,7 @@ export function Footer() {
           </a>
           <a
             href="https://www.linkedin.com/in/anibal-ros%C3%A1rio-jo%C3%A3o-1b2343331/"
-            target="_blank"inkedin.
+            target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-secondary"
           >
