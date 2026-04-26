@@ -62,7 +62,7 @@ export function Footer() {
             <span>Instagram</span>
           </a>
           <a
-            href="anibalrosariojoao2002@gmail.com"
+            href="mailto:anibalrosariojoao2002@gmail.com"
             className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary"
           >
             <Mail className="h-5 w-5" />
