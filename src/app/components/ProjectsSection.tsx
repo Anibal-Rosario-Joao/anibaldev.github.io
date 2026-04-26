@@ -54,6 +54,7 @@ export function ProjectsSection() {
                   </div>
                   <a
                     href={project.link}
+                    target="_blank"
                     className="text-muted-foreground transition-colors hover:text-primary"
                   >
                     <ExternalLink className="h-5 w-5" />
