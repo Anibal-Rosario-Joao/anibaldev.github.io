@@ -79,7 +79,7 @@ export function ProjectsSection() {
                     href={project.link}
                     className="inline-flex items-center gap-2 text-primary transition-colors hover:text-primary/80"
                   >
-                    {t('viewProjects')}
+                    {t('viewProject')}
                     <ExternalLink className="h-4 w-4" />
                   </a>
                 </div>
