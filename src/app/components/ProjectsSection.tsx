@@ -17,7 +17,7 @@ export function ProjectsSection() {
     {
       title: t('project2Title'),
       description: t('project2Description'),
-      technologies: ['Kotlin', 'Data Store'), 'MVVM','Clean Architecture', 'Retrfit', 'Dagger Hilt'],
+      technologies: ['Kotlin', 'Data Store', 'MVVM','Clean Architecture', 'Retrfit', 'Dagger Hilt'],
       icon: Crown,
       link: 'https://github.com/Anibal-Rosario-Joao/King-Burguer',
     },
