@@ -48,7 +48,7 @@ export function HeroSection() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="linkedin.com/in/anibal-rosário-joão-1b2343331"
+              href="https://www.linkedin.com/in/anibal-ros%C3%A1rio-jo%C3%A3o-1b2343331/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground transition-colors hover:text-secondary"
