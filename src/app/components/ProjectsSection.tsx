@@ -9,9 +9,9 @@ export function ProjectsSection() {
     {
       title: t('project1Title'),
       description: t('project1Description'),
-      technologies: ['Python', t('machineLearning'), t('spectrumAnalysis'), t('decisionTrees')],
+      technologies: ['Kotlin', t('RoomDatabase'),'MVVM', t('NavigationCompose'), t('Material3')],
       icon: Brain,
-      link: '#',
+      link: 'https://github.com/Anibal-Rosario-Joao/Loteria/tree/master',
     },
     {
       title: t('project2Title'),
