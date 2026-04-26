@@ -35,7 +35,7 @@ export function Footer() {
       <div className="flex flex-col items-center gap-6">
         <div className="flex flex-wrap items-center justify-center gap-6">
           <a
-            href="https://github.com"
+            href="https://github.com/Anibal-Rosario-Joao"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary"
@@ -44,7 +44,7 @@ export function Footer() {
             <span>GitHub</span>
           </a>
           <a
-            href="https://linkedin.com"
+            href="linkedin.com/in/anibal-rosário-joão-1b2343331"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-secondary"
@@ -53,7 +53,7 @@ export function Footer() {
             <span>LinkedIn</span>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/hannibal_ofice/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary"
